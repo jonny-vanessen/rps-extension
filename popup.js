@@ -1,12 +1,17 @@
+// Import the functions you need from the SDKs you need
 import { initializeApp } from 'firebase/app';
-import { getDatabase } from 'firebase/database';
+// TODO: Add SDKs for Firebase products that you want to use
+// https://firebase.google.com/docs/web/setup#available-libraries
 
-// TODO: Replace the following with your app's Firebase project configuration
-// See: https://firebase.google.com/docs/web/learn-more#config-object
+// Your web app's Firebase configuration
 const firebaseConfig = {
-  // ...
-  // The value of `databaseURL` depends on the location of the database
-  databaseURL: 'https://rps-extension-default-rtdb.firebaseio.com/'
+  apiKey: 'AIzaSyB7PxfBESDpHdN2uJQ9t98HxcL_obCZglY',
+  authDomain: 'rps-extension.firebaseapp.com',
+  databaseURL: 'https://rps-extension-default-rtdb.firebaseio.com',
+  projectId: 'rps-extension',
+  storageBucket: 'rps-extension.appspot.com',
+  messagingSenderId: '395466577932',
+  appId: '1:395466577932:web:f57a2acee5de4d8a8cb629'
 };
 
 // Initialize Firebase
